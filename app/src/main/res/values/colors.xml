@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="eco_primary">#2E7D32</color>       <color name="eco_accent_orange">#FF9800</color>  <color name="eco_accent_pink">#E91E63</color>    <color name="scan_cyan">#00BCD4</color>          <color name="bg_gradient_start">#E8F5E9</color>  <color name="bg_gradient_end">#E0F7FA</color>    <color name="card_surface">#FFFFFF</color>
+    <color name="text_main">#263238</color>          <color name="text_sub">#546E7A</color>           </resources>

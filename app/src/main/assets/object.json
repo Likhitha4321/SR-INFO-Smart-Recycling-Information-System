@@ -1,0 +1,707 @@
+[
+  {
+    "name": "Plastic Bottle",
+    "category": "Plastic",
+    "recyclable": true,
+    "recyclingRate": "95%",
+    "description": "Plastic bottles are usually made from PET plastic and can be recycled into new bottles, clothing, and carpets.",
+    "howToRecycle": "Empty, rinse, squash to save space, and place in the plastic recycling bin.",
+    "creativeIdea": "Turn it into a bird feeder, flower pot, or self-watering planter.",
+    "interestingFact": "A recycled plastic bottle can be transformed into the fabric for a T-shirt!"
+  },
+  {
+    "name": "Shampoo Bottle",
+    "category": "Plastic",
+    "recyclable": true,
+    "recyclingRate": "90%",
+    "description": "Most shampoo bottles are made from HDPE plastic, one of the easiest plastics to recycle.",
+    "howToRecycle": "Rinse thoroughly, remove the pump if possible, and recycle.",
+    "creativeIdea": "Use it as a charging station or pen holder.",
+    "interestingFact": "Recycled shampoo bottles are often turned into playground equipment."
+  },
+  {
+    "name": "Plastic Food Container",
+    "category": "Plastic",
+    "recyclable": true,
+    "recyclingRate": "85%",
+    "description": "Clean food containers can be recycled into new plastic products.",
+    "howToRecycle": "Wash away food residue before recycling.",
+    "creativeIdea": "Store buttons, screws, or craft supplies.",
+    "interestingFact": "One clean food container can be recycled into another useful household item."
+  },
+  {
+    "name": "Plastic Bucket",
+    "category": "Plastic",
+    "recyclable": true,
+    "recyclingRate": "90%",
+    "description": "Plastic buckets are made from durable HDPE plastic and are recyclable.",
+    "howToRecycle": "Clean and send to a recycling center or municipal collection.",
+    "creativeIdea": "Convert it into a gardening planter or storage bin.",
+    "interestingFact": "HDPE plastic is strong enough to be recycled into outdoor furniture."
+  },
+  {
+    "name": "Bottle Cap",
+    "category": "Plastic",
+    "recyclable": true,
+    "recyclingRate": "80%",
+    "description": "Plastic bottle caps are made from PP or HDPE plastic.",
+    "howToRecycle": "Keep the cap attached to the bottle if your local recycling program accepts it.",
+    "creativeIdea": "Create colorful board games, magnets, or mosaics.",
+    "interestingFact": "Thousands of bottle caps can become park benches after recycling."
+  },
+  {
+    "name": "Plastic Straw",
+    "category": "Plastic",
+    "recyclable": false,
+    "recyclingRate": "5%",
+    "description": "Plastic straws are too small for most recycling machines.",
+    "howToRecycle": "Reduce use by switching to reusable metal or bamboo straws.",
+    "creativeIdea": "Use clean straws for children's craft projects.",
+    "interestingFact": "One reusable straw can replace hundreds of disposable plastic straws every year."
+  },
+  {
+    "name": "Toothpaste Tube",
+    "category": "Plastic",
+    "recyclable": false,
+    "recyclingRate": "15%",
+    "description": "Most toothpaste tubes contain multiple layers of plastic and aluminum.",
+    "howToRecycle": "Recycle only through specialized collection programs.",
+    "creativeIdea": "Cut open empty tubes to squeeze out every last bit of toothpaste before disposal.",
+    "interestingFact": "Millions of toothpaste tubes end up in landfills every year because they are difficult to recycle."
+  },
+
+  {
+    "name": "Newspaper",
+    "category": "Paper",
+    "recyclable": true,
+    "recyclingRate": "95%",
+    "description": "Newspapers are one of the most commonly recycled paper products.",
+    "howToRecycle": "Keep them dry and place them in the paper recycling bin.",
+    "creativeIdea": "Use them as gift wrapping paper or for making paper bags.",
+    "interestingFact": "Recycling one ton of newspaper saves about 17 mature trees."
+  },
+  {
+    "name": "Notebook",
+    "category": "Paper",
+    "recyclable": true,
+    "recyclingRate": "95%",
+    "description": "Paper notebooks can be recycled after removing plastic covers and spiral bindings.",
+    "howToRecycle": "Separate non-paper parts before recycling.",
+    "creativeIdea": "Use unused pages as a rough notebook.",
+    "interestingFact": "Paper fibers can usually be recycled 5 to 7 times."
+  },
+  {
+    "name": "Cardboard Box",
+    "category": "Paper",
+    "recyclable": true,
+    "recyclingRate": "98%",
+    "description": "Clean cardboard is highly recyclable and is used to make new boxes.",
+    "howToRecycle": "Flatten the box before placing it in the recycling bin.",
+    "creativeIdea": "Build toy houses, organizers, or cat playhouses.",
+    "interestingFact": "Many shipping boxes are already made from recycled cardboard."
+  },
+  {
+    "name": "Magazine",
+    "category": "Paper",
+    "recyclable": true,
+    "recyclingRate": "90%",
+    "description": "Glossy magazines are recyclable in most paper recycling programs.",
+    "howToRecycle": "Recycle with other clean paper products.",
+    "creativeIdea": "Create colorful collages and paper flowers.",
+    "interestingFact": "Old magazines can become tissue paper after recycling."
+  },
+  {
+    "name": "Office Paper",
+    "category": "Paper",
+    "recyclable": true,
+    "recyclingRate": "100%",
+    "description": "Clean office paper is one of the easiest materials to recycle.",
+    "howToRecycle": "Keep it free from food stains before recycling.",
+    "creativeIdea": "Use one-sided sheets for notes or children's drawing.",
+    "interestingFact": "Recycled office paper uses around 40% less energy than making new paper."
+  },
+  {
+    "name": "Greeting Card",
+    "category": "Paper",
+    "recyclable": true,
+    "recyclingRate": "90%",
+    "description": "Plain paper greeting cards are recyclable if they don't contain glitter or plastic decorations.",
+    "howToRecycle": "Remove ribbons and plastic before recycling.",
+    "creativeIdea": "Turn old greeting cards into bookmarks or gift tags.",
+    "interestingFact": "Handmade greeting cards can often be recycled multiple times."
+  },
+  {
+    "name": "Book",
+    "category": "Paper",
+    "recyclable": true,
+    "recyclingRate": "90%",
+    "description": "Books can be donated, reused, or recycled when damaged.",
+    "howToRecycle": "Donate readable books; recycle damaged ones after removing hard covers if required.",
+    "creativeIdea": "Make a secret storage box or decorative shelf art.",
+    "interestingFact": "Sharing a single book with many readers helps save paper and trees."
+  },
+  {
+    "name": "Glass Bottle",
+    "category": "Glass",
+    "recyclable": true,
+    "recyclingRate": "100%",
+    "description": "Glass bottles can be recycled endlessly without losing their quality or purity.",
+    "howToRecycle": "Rinse the bottle, remove the cap if required, and place it in the glass recycling bin.",
+    "creativeIdea": "Turn it into a flower vase, lamp, or decorative centerpiece.",
+    "interestingFact": "A recycled glass bottle can return to a store shelf as a new bottle in about 30 days!"
+  },
+  {
+    "name": "Glass Jar",
+    "category": "Glass",
+    "recyclable": true,
+    "recyclingRate": "100%",
+    "description": "Glass jars are commonly used for food storage and are completely recyclable.",
+    "howToRecycle": "Wash the jar and remove metal lids before recycling.",
+    "creativeIdea": "Use it to store spices, coins, or homemade candles.",
+    "interestingFact": "Glass can be recycled forever without losing its strength."
+  },
+  {
+    "name": "Perfume Bottle",
+    "category": "Glass",
+    "recyclable": true,
+    "recyclingRate": "95%",
+    "description": "Most perfume bottles are made from recyclable glass.",
+    "howToRecycle": "Empty completely and remove the spray pump if possible.",
+    "creativeIdea": "Use as a mini flower vase or room decoration.",
+    "interestingFact": "Beautiful perfume bottles are often collected as decorative art."
+  },
+  {
+    "name": "Glass Cup",
+    "category": "Glass",
+    "recyclable": false,
+    "recyclingRate": "15%",
+    "description": "Drinking glasses are made from a different type of glass than bottles.",
+    "howToRecycle": "Donate if usable or dispose according to local waste rules.",
+    "creativeIdea": "Use as a pen holder or candle holder.",
+    "interestingFact": "Glass cups melt at different temperatures than bottles, so they usually cannot be recycled together."
+  },
+  {
+    "name": "Medicine Bottle",
+    "category": "Glass",
+    "recyclable": true,
+    "recyclingRate": "95%",
+    "description": "Glass medicine bottles can often be recycled after cleaning.",
+    "howToRecycle": "Remove labels if possible and rinse thoroughly.",
+    "creativeIdea": "Store beads, buttons, or small craft items.",
+    "interestingFact": "Amber-colored medicine bottles protect medicines from harmful sunlight."
+  },
+  {
+    "name": "Window Glass",
+    "category": "Glass",
+    "recyclable": false,
+    "recyclingRate": "10%",
+    "description": "Window glass is treated differently and cannot usually be recycled with bottles.",
+    "howToRecycle": "Take it to specialized construction recycling centers.",
+    "creativeIdea": "Broken pieces can be used for mosaic artwork with proper safety.",
+    "interestingFact": "Modern windows often contain coatings that improve energy efficiency."
+  },
+  {
+    "name": "Glass Bowl",
+    "category": "Glass",
+    "recyclable": false,
+    "recyclingRate": "10%",
+    "description": "Heat-resistant glass bowls are different from container glass.",
+    "howToRecycle": "Donate if usable or dispose safely.",
+    "creativeIdea": "Use cracked bowls as decorative plant holders.",
+    "interestingFact": "Heat-resistant glass can survive temperatures that would crack ordinary bottles."
+  },
+
+  {
+    "name": "Aluminum Can",
+    "category": "Metal",
+    "recyclable": true,
+    "recyclingRate": "100%",
+    "description": "Aluminum cans are among the most valuable recyclable materials.",
+    "howToRecycle": "Rinse, crush, and place them in the metal recycling bin.",
+    "creativeIdea": "Create lanterns, pencil holders, or mini planters.",
+    "interestingFact": "Recycling one aluminum can saves enough energy to power a TV for about 3 hours."
+  },
+  {
+    "name": "Steel Spoon",
+    "category": "Metal",
+    "recyclable": true,
+    "recyclingRate": "100%",
+    "description": "Steel spoons are durable and can be recycled repeatedly.",
+    "howToRecycle": "Recycle with other scrap metals.",
+    "creativeIdea": "Make decorative wind chimes or garden markers.",
+    "interestingFact": "Steel is the world's most recycled material."
+  },
+  {
+    "name": "Cooking Pot",
+    "category": "Metal",
+    "recyclable": true,
+    "recyclingRate": "95%",
+    "description": "Old metal cooking pots contain valuable recyclable metals.",
+    "howToRecycle": "Take them to a scrap metal collection center.",
+    "creativeIdea": "Turn it into a flower pot or bird bath.",
+    "interestingFact": "Many recycled cooking pots become parts of new kitchen utensils."
+  },
+  {
+    "name": "Tin Can",
+    "category": "Metal",
+    "recyclable": true,
+    "recyclingRate": "98%",
+    "description": "Food cans made from tin-coated steel are highly recyclable.",
+    "howToRecycle": "Wash thoroughly before recycling.",
+    "creativeIdea": "Create desk organizers or lanterns.",
+    "interestingFact": "A recycled tin can may return to store shelves within two months."
+  },
+  {
+    "name": "Aluminum Foil",
+    "category": "Metal",
+    "recyclable": true,
+    "recyclingRate": "95%",
+    "description": "Clean aluminum foil can be recycled into new aluminum products.",
+    "howToRecycle": "Remove food residue and roll small pieces into a ball.",
+    "creativeIdea": "Use in art and science projects.",
+    "interestingFact": "Recycling aluminum saves about 95% of the energy needed to produce new aluminum."
+  },
+  {
+    "name": "Copper Wire",
+    "category": "Metal",
+    "recyclable": true,
+    "recyclingRate": "100%",
+    "description": "Copper is one of the most valuable recyclable metals.",
+    "howToRecycle": "Take to an authorized scrap metal dealer.",
+    "creativeIdea": "Create handmade jewelry or sculptures.",
+    "interestingFact": "Nearly 80% of all copper ever mined is still in use today because it can be recycled repeatedly."
+  },
+  {
+    "name": "Metal Bottle Cap",
+    "category": "Metal",
+    "recyclable": true,
+    "recyclingRate": "90%",
+    "description": "Metal bottle caps are small but completely recyclable.",
+    "howToRecycle": "Collect several together before recycling.",
+    "creativeIdea": "Make fridge magnets, keychains, or mosaic art.",
+    "interestingFact": "Thousands of recycled bottle caps can be transformed into bicycle parts, appliances, and even cars."
+  },
+  {
+    "name": "Mobile Phone",
+    "category": "E-Waste",
+    "recyclable": true,
+    "recyclingRate": "95%",
+    "description": "Old mobile phones contain valuable metals such as gold, silver, and copper that can be recovered through recycling.",
+    "howToRecycle": "Back up your data, remove the SIM card, and take the phone to an authorized e-waste recycling center.",
+    "creativeIdea": "Reuse it as a music player, security camera, or digital alarm clock.",
+    "interestingFact": "One million recycled mobile phones can recover about 24 kg of gold and over 250 kg of silver!"
+  },
+  {
+    "name": "Laptop",
+    "category": "E-Waste",
+    "recyclable": true,
+    "recyclingRate": "90%",
+    "description": "Laptops contain recyclable metals, plastics, and electronic components.",
+    "howToRecycle": "Erase personal data and hand it over to a certified e-waste collection center.",
+    "creativeIdea": "Convert an old laptop into a home media server or learning computer.",
+    "interestingFact": "More than 90% of a laptop's materials can be reused or recycled."
+  },
+  {
+    "name": "Laptop Charger",
+    "category": "E-Waste",
+    "recyclable": true,
+    "recyclingRate": "85%",
+    "description": "Chargers contain copper wires, plastic insulation, and electronic parts.",
+    "howToRecycle": "Recycle through authorized e-waste collection points.",
+    "creativeIdea": "Keep it as a spare charger if it still works.",
+    "interestingFact": "Copper recovered from old chargers can be used to manufacture new electrical wires."
+  },
+  {
+    "name": "Computer Keyboard",
+    "category": "E-Waste",
+    "recyclable": true,
+    "recyclingRate": "85%",
+    "description": "Keyboards are made from plastic, rubber, and electronic circuits that can be recycled.",
+    "howToRecycle": "Take it to an e-waste recycling facility.",
+    "creativeIdea": "Use the keys for DIY keychains or decorative crafts.",
+    "interestingFact": "A standard keyboard contains more than 100 reusable parts."
+  },
+  {
+    "name": "Computer Mouse",
+    "category": "E-Waste",
+    "recyclable": true,
+    "recyclingRate": "85%",
+    "description": "Computer mice contain plastic, copper, and small circuit boards.",
+    "howToRecycle": "Dispose of it through an authorized e-waste recycler.",
+    "creativeIdea": "Use the shell for STEM or robotics projects.",
+    "interestingFact": "Even a small computer mouse contains recyclable metals that reduce the need for mining."
+  },
+  {
+    "name": "Earphones",
+    "category": "E-Waste",
+    "recyclable": true,
+    "recyclingRate": "75%",
+    "description": "Earphones contain copper wiring, magnets, and plastic components.",
+    "howToRecycle": "Take them to an electronics recycling center.",
+    "creativeIdea": "Reuse the magnets for science experiments.",
+    "interestingFact": "Tiny earphones contain rare-earth magnets used in advanced electronics."
+  },
+  {
+    "name": "TV Remote",
+    "category": "E-Waste",
+    "recyclable": true,
+    "recyclingRate": "80%",
+    "description": "Remote controls contain plastic, circuit boards, and battery contacts.",
+    "howToRecycle": "Remove the batteries and recycle the remote through an e-waste center.",
+    "creativeIdea": "Reuse working remotes as spare controllers.",
+    "interestingFact": "Removing batteries before recycling makes electronic recycling safer and more efficient."
+  },
+
+  {
+    "name": "Banana Peel",
+    "category": "Organic",
+    "recyclable": false,
+    "recyclingRate": "Compostable",
+    "description": "Banana peels naturally decompose and are excellent for composting.",
+    "howToRecycle": "Place them in a compost bin instead of a recycling bin.",
+    "creativeIdea": "Use composted banana peels as natural fertilizer for plants.",
+    "interestingFact": "Banana peels are rich in potassium, which helps plants grow strong."
+  },
+  {
+    "name": "Orange Peel",
+    "category": "Organic",
+    "recyclable": false,
+    "recyclingRate": "Compostable",
+    "description": "Orange peels break down naturally and enrich compost.",
+    "howToRecycle": "Add them to a compost pile.",
+    "creativeIdea": "Dry the peels and use them as natural room fresheners.",
+    "interestingFact": "Orange peels contain natural oils that can repel insects."
+  },
+  {
+    "name": "Eggshell",
+    "category": "Organic",
+    "recyclable": false,
+    "recyclingRate": "Compostable",
+    "description": "Eggshells are rich in calcium and improve compost quality.",
+    "howToRecycle": "Crush and mix them into compost or garden soil.",
+    "creativeIdea": "Use crushed eggshells around plants to help deter some garden pests.",
+    "interestingFact": "Eggshells are about 95% calcium carbonate—the same mineral found in chalk."
+  },
+  {
+    "name": "Tea Leaves",
+    "category": "Organic",
+    "recyclable": false,
+    "recyclingRate": "Compostable",
+    "description": "Used tea leaves are biodegradable and make nutrient-rich compost.",
+    "howToRecycle": "Compost the leaves after removing any plastic-containing tea bags.",
+    "creativeIdea": "Mix used tea leaves into garden soil.",
+    "interestingFact": "Tea leaves add nitrogen to compost, helping microorganisms thrive."
+  },
+  {
+    "name": "Coffee Grounds",
+    "category": "Organic",
+    "recyclable": false,
+    "recyclingRate": "Compostable",
+    "description": "Used coffee grounds improve soil structure and compost quality.",
+    "howToRecycle": "Add them to a compost bin or garden soil in moderation.",
+    "creativeIdea": "Use as a natural deodorizer for refrigerators.",
+    "interestingFact": "Coffee grounds are loved by earthworms because they enrich compost."
+  },
+  {
+    "name": "Vegetable Peels",
+    "category": "Organic",
+    "recyclable": false,
+    "recyclingRate": "Compostable",
+    "description": "Vegetable peels decompose quickly and become nutrient-rich compost.",
+    "howToRecycle": "Collect them separately and compost them.",
+    "creativeIdea": "Use homemade compost to grow herbs and vegetables.",
+    "interestingFact": "Nearly half of household kitchen waste can be composted instead of sent to landfills."
+  },
+  {
+    "name": "Coconut Shell",
+    "category": "Organic",
+    "recyclable": false,
+    "recyclingRate": "Compostable",
+    "description": "Coconut shells are biodegradable but decompose more slowly than fruit peels.",
+    "howToRecycle": "Reuse them for crafts or add crushed pieces to compost.",
+    "creativeIdea": "Make bird feeders, bowls, candle holders, or garden planters.",
+    "interestingFact": "Coconut shells are so strong that they are also used to make charcoal, handicrafts, and eco-friendly products."
+  },
+  {
+    "name": "T-Shirt",
+    "category": "Textile",
+    "recyclable": true,
+    "recyclingRate": "85%",
+    "description": "Cotton and polyester T-shirts can often be reused or recycled into new fabric products.",
+    "howToRecycle": "Donate wearable shirts or send damaged ones to a textile recycling center.",
+    "creativeIdea": "Turn it into a reusable shopping bag or cleaning cloth.",
+    "interestingFact": "Making one cotton T-shirt can require over 2,500 liters of water!"
+  },
+  {
+    "name": "Jeans",
+    "category": "Textile",
+    "recyclable": true,
+    "recyclingRate": "80%",
+    "description": "Old jeans can be reused, donated, or recycled into insulation and new fabrics.",
+    "howToRecycle": "Donate if wearable or recycle through textile collection programs.",
+    "creativeIdea": "Make a backpack, pencil pouch, or cushion cover.",
+    "interestingFact": "Some recycled denim is used to insulate houses and buildings."
+  },
+  {
+    "name": "Socks",
+    "category": "Textile",
+    "recyclable": true,
+    "recyclingRate": "70%",
+    "description": "Old socks can be reused for cleaning or recycled into textile fibers.",
+    "howToRecycle": "Place them in textile recycling bins if available.",
+    "creativeIdea": "Use them as dusting gloves or pet toys.",
+    "interestingFact": "A lonely sock can still have a second life as a useful cleaning cloth."
+  },
+  {
+    "name": "Bath Towel",
+    "category": "Textile",
+    "recyclable": true,
+    "recyclingRate": "75%",
+    "description": "Old towels can be reused before being recycled.",
+    "howToRecycle": "Donate clean towels to animal shelters or recycle them.",
+    "creativeIdea": "Cut into reusable cleaning wipes.",
+    "interestingFact": "Animal shelters often welcome donations of old towels and blankets."
+  },
+  {
+    "name": "Bedsheet",
+    "category": "Textile",
+    "recyclable": true,
+    "recyclingRate": "80%",
+    "description": "Bedsheets can be reused, donated, or recycled into textile fibers.",
+    "howToRecycle": "Donate usable sheets or recycle worn-out ones.",
+    "creativeIdea": "Sew into pillow covers or reusable bags.",
+    "interestingFact": "Many recycled textiles are turned into carpet padding."
+  },
+  {
+    "name": "Curtain",
+    "category": "Textile",
+    "recyclable": true,
+    "recyclingRate": "80%",
+    "description": "Fabric curtains can often be reused or recycled.",
+    "howToRecycle": "Donate clean curtains or send them to textile recycling facilities.",
+    "creativeIdea": "Turn them into tablecloths or shopping bags.",
+    "interestingFact": "Upcycling old curtains is a popular way to reduce textile waste."
+  },
+  {
+    "name": "School Bag",
+    "category": "Textile",
+    "recyclable": true,
+    "recyclingRate": "75%",
+    "description": "School bags made from fabric can often be repaired, donated, or recycled.",
+    "howToRecycle": "Donate usable bags or recycle them through textile programs.",
+    "creativeIdea": "Use as a storage organizer at home.",
+    "interestingFact": "Donating one school bag can help another student continue their education."
+  },
+
+  {
+    "name": "Car Tire",
+    "category": "Rubber",
+    "recyclable": true,
+    "recyclingRate": "75%",
+    "description": "Old tires can be recycled into playground surfaces, roads, and sports tracks.",
+    "howToRecycle": "Take them to an authorized tire recycling center.",
+    "creativeIdea": "Make a garden planter or playground swing.",
+    "interestingFact": "Recycled rubber from tires is used in some athletic running tracks."
+  },
+  {
+    "name": "Rubber Slipper",
+    "category": "Rubber",
+    "recyclable": true,
+    "recyclingRate": "65%",
+    "description": "Rubber slippers can be recycled through specialized recycling facilities.",
+    "howToRecycle": "Donate usable slippers or recycle them where accepted.",
+    "creativeIdea": "Use as a door stopper or plant pot base.",
+    "interestingFact": "Millions of rubber slippers are discarded worldwide every year."
+  },
+  {
+    "name": "Rubber Band",
+    "category": "Rubber",
+    "recyclable": false,
+    "recyclingRate": "20%",
+    "description": "Rubber bands are usually too small for standard recycling systems.",
+    "howToRecycle": "Reuse them as many times as possible before disposal.",
+    "creativeIdea": "Bundle cables or organize pens.",
+    "interestingFact": "A single rubber band can often be reused hundreds of times."
+  },
+  {
+    "name": "Eraser",
+    "category": "Rubber",
+    "recyclable": false,
+    "recyclingRate": "10%",
+    "description": "Most erasers are made from synthetic rubber mixed with other materials.",
+    "howToRecycle": "Use completely before disposal.",
+    "creativeIdea": "Small pieces can be used for stamp carving projects.",
+    "interestingFact": "Modern erasers are usually made from synthetic rubber instead of natural rubber."
+  },
+  {
+    "name": "Rubber Gloves",
+    "category": "Rubber",
+    "recyclable": true,
+    "recyclingRate": "40%",
+    "description": "Clean rubber gloves can sometimes be recycled through specialty programs.",
+    "howToRecycle": "Wash thoroughly before taking them to a recycling facility.",
+    "creativeIdea": "Reuse as gardening gloves if still in good condition.",
+    "interestingFact": "Natural rubber comes from the sap of rubber trees."
+  },
+  {
+    "name": "Garden Hose",
+    "category": "Rubber",
+    "recyclable": true,
+    "recyclingRate": "60%",
+    "description": "Garden hoses can be recycled through specialized rubber recycling centers.",
+    "howToRecycle": "Take them to facilities that accept rubber products.",
+    "creativeIdea": "Cut into pieces to protect tree trunks or tool handles.",
+    "interestingFact": "Old garden hoses are often reused in farms before being recycled."
+  },
+  {
+    "name": "Rubber Ball",
+    "category": "Rubber",
+    "recyclable": true,
+    "recyclingRate": "50%",
+    "description": "Rubber balls can sometimes be recycled depending on the material.",
+    "howToRecycle": "Donate if usable or recycle through specialty programs.",
+    "creativeIdea": "Use in pet games or children's activities.",
+    "interestingFact": "Rubber's elasticity comes from long chains of natural or synthetic polymers."
+  },
+  {
+    "name": "Wooden Chair",
+    "category": "Wood",
+    "recyclable": true,
+    "recyclingRate": "90%",
+    "description": "Wooden chairs can often be repaired, reused, or recycled into wood products.",
+    "howToRecycle": "Donate if usable or send to a wood recycling facility.",
+    "creativeIdea": "Turn it into a plant stand or garden decoration.",
+    "interestingFact": "A repaired wooden chair can last for decades, reducing the need to cut more trees."
+  },
+  {
+    "name": "Wooden Table",
+    "category": "Wood",
+    "recyclable": true,
+    "recyclingRate": "90%",
+    "description": "Solid wood tables are valuable because the wood can be reused many times.",
+    "howToRecycle": "Repair, donate, or recycle through wood collection centers.",
+    "creativeIdea": "Convert it into a workbench or bookshelf.",
+    "interestingFact": "Reusing wooden furniture stores carbon that trees absorbed while growing."
+  },
+  {
+    "name": "Wooden Pencil",
+    "category": "Wood",
+    "recyclable": true,
+    "recyclingRate": "70%",
+    "description": "Wooden pencils are biodegradable and can be composted after removing non-wood parts.",
+    "howToRecycle": "Separate the metal ferrule if possible before disposal.",
+    "creativeIdea": "Use short pencils for craft decorations.",
+    "interestingFact": "One tree can produce over 170,000 pencils!"
+  },
+  {
+    "name": "Wooden Pallet",
+    "category": "Wood",
+    "recyclable": true,
+    "recyclingRate": "95%",
+    "description": "Wooden pallets are widely reused and recycled into furniture or mulch.",
+    "howToRecycle": "Return reusable pallets or send damaged ones for recycling.",
+    "creativeIdea": "Build coffee tables, benches, or garden planters.",
+    "interestingFact": "Millions of pallets are repaired every year instead of being thrown away."
+  },
+  {
+    "name": "Ice Cream Stick",
+    "category": "Wood",
+    "recyclable": true,
+    "recyclingRate": "75%",
+    "description": "Wooden ice cream sticks are biodegradable and useful for crafts.",
+    "howToRecycle": "Compost clean sticks or recycle where accepted.",
+    "creativeIdea": "Make photo frames, bookmarks, or miniature bridges.",
+    "interestingFact": "Popsicle-stick bridges are popular science fair projects around the world."
+  },
+  {
+    "name": "Wooden Door",
+    "category": "Wood",
+    "recyclable": true,
+    "recyclingRate": "90%",
+    "description": "Wooden doors can often be refurbished instead of discarded.",
+    "howToRecycle": "Donate or recycle through construction waste facilities.",
+    "creativeIdea": "Transform into a dining table or wall shelf.",
+    "interestingFact": "Old wooden doors are commonly reused in vintage home décor."
+  },
+  {
+    "name": "Wooden Crate",
+    "category": "Wood",
+    "recyclable": true,
+    "recyclingRate": "90%",
+    "description": "Wooden crates are durable and easy to reuse.",
+    "howToRecycle": "Repair or recycle into wood chips.",
+    "creativeIdea": "Stack them into bookshelves or shoe racks.",
+    "interestingFact": "Many fruit markets reuse the same wooden crates for years."
+  },
+
+  {
+    "name": "Battery",
+    "category": "Hazardous",
+    "recyclable": true,
+    "recyclingRate": "95%",
+    "description": "Batteries contain valuable metals but also hazardous chemicals that require special recycling.",
+    "howToRecycle": "Take used batteries to authorized battery collection centers.",
+    "creativeIdea": "Do not reuse damaged batteries. Instead, teach children about safe battery disposal.",
+    "interestingFact": "A single improperly discarded battery can contaminate large amounts of soil and water."
+  },
+  {
+    "name": "LED Light Bulb",
+    "category": "Household",
+    "recyclable": true,
+    "recyclingRate": "80%",
+    "description": "LED bulbs contain recyclable metals and electronic components.",
+    "howToRecycle": "Recycle through an approved lighting or e-waste collection center.",
+    "creativeIdea": "Use burnt-out bulbs as tiny decorative vases (only if safely prepared).",
+    "interestingFact": "LED bulbs use up to 80% less electricity than traditional bulbs."
+  },
+  {
+    "name": "Ceramic Mug",
+    "category": "Household",
+    "recyclable": false,
+    "recyclingRate": "0%",
+    "description": "Ceramic mugs cannot usually be recycled with glass because they melt at different temperatures.",
+    "howToRecycle": "Donate if usable or dispose of safely.",
+    "creativeIdea": "Use as a pen holder or small flower pot.",
+    "interestingFact": "Ceramics are fired at temperatures above 1,000°C, making them extremely durable."
+  },
+  {
+    "name": "Mirror",
+    "category": "Household",
+    "recyclable": false,
+    "recyclingRate": "0%",
+    "description": "Mirrors contain reflective coatings that prevent normal glass recycling.",
+    "howToRecycle": "Take broken mirrors to construction waste facilities if available.",
+    "creativeIdea": "Create decorative mosaic art using safely handled pieces.",
+    "interestingFact": "The reflective layer behind a mirror is usually made from silver or aluminum."
+  },
+  {
+    "name": "Paint Can",
+    "category": "Hazardous",
+    "recyclable": true,
+    "recyclingRate": "60%",
+    "description": "Empty metal paint cans can often be recycled after the paint has completely dried.",
+    "howToRecycle": "Allow leftover paint to dry before recycling the can.",
+    "creativeIdea": "Use empty cans to store gardening tools or brushes.",
+    "interestingFact": "Liquid paint should never be poured into drains because it can pollute waterways."
+  },
+  {
+    "name": "Disposable Face Mask",
+    "category": "Household",
+    "recyclable": false,
+    "recyclingRate": "0%",
+    "description": "Most disposable masks contain mixed plastic fibers that are difficult to recycle.",
+    "howToRecycle": "Cut the ear loops and dispose of them in general waste.",
+    "creativeIdea": "Do not reuse disposable masks after use.",
+    "interestingFact": "Improperly discarded masks can harm birds and marine animals if they become tangled in the straps."
+  },
+  {
+    "name": "Medicine Strip",
+    "category": "Hazardous",
+    "recyclable": false,
+    "recyclingRate": "10%",
+    "description": "Medicine blister packs are made from mixed plastic and aluminum layers, making them difficult to recycle.",
+    "howToRecycle": "Dispose of them through pharmacy take-back or specialized recycling programs where available.",
+    "creativeIdea": "Avoid crafts with used medicine packaging because it may contain medicine residue.",
+    "interestingFact": "Many countries are developing new technologies to separate plastic and aluminum from medicine strips for recycling."
+  }
+]

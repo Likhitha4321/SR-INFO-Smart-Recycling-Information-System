@@ -1,0 +1,72 @@
+[
+  {
+    "question": "Which of these items can usually be recycled?",
+    "options": [
+      "Plastic Bottle",
+      "Used Tissue Paper",
+      "Food Waste",
+      "Dirty Diaper"
+    ],
+    "answer": 0,
+    "category": "Plastic",
+    "difficulty": "Easy",
+    "explanation": "Clean plastic bottles can usually be recycled into new products.",
+    "speech": "Let's see if you know which plastic item can be recycled."
+  },
+  {
+    "question": "Where should a used battery be disposed?",
+    "options": [
+      "Kitchen Bin",
+      "Garden",
+      "Battery Collection Center",
+      "River"
+    ],
+    "answer": 2,
+    "category": "Battery",
+    "difficulty": "Easy",
+    "explanation": "Batteries contain harmful chemicals and should always be taken to a battery collection or e-waste center.",
+    "speech": "Batteries need special care. Choose the correct answer."
+  },
+  {
+    "question": "Which color recycling bin is commonly used for paper?",
+    "options": [
+      "Blue",
+      "Red",
+      "Black",
+      "Brown"
+    ],
+    "answer": 0,
+    "category": "Paper",
+    "difficulty": "Medium",
+    "explanation": "Many recycling systems use blue bins for paper and cardboard.",
+    "speech": "Can you identify the correct recycling bin for paper?"
+  },
+  {
+    "question": "Why should glass bottles be recycled?",
+    "options": [
+      "They melt into new glass products",
+      "They disappear naturally in one day",
+      "They become food",
+      "They cannot be recycled"
+    ],
+    "answer": 0,
+    "category": "Glass",
+    "difficulty": "Medium",
+    "explanation": "Glass can be melted and made into new bottles many times without losing quality.",
+    "speech": "Glass is one of the easiest materials to recycle. Let's test your knowledge."
+  },
+  {
+    "question": "Turning off lights when not in use helps to...",
+    "options": [
+      "Waste Electricity",
+      "Save Energy",
+      "Increase Pollution",
+      "Damage Bulbs"
+    ],
+    "answer": 1,
+    "category": "Energy",
+    "difficulty": "Easy",
+    "explanation": "Switching off unnecessary lights saves electricity and helps protect the environment.",
+    "speech": "Saving electricity is also helping our planet. Choose the best answer."
+  }
+]

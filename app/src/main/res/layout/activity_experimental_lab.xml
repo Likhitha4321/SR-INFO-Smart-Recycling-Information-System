@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5FAF6">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+
+            <!-- ================================================= -->
+            <!-- GREEN HEADER -->
+            <!-- ================================================= -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                app:cardBackgroundColor="#176B4D"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="0dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start|bottom"
+                        android:layout_marginStart="-8dp"
+                        android:layout_marginBottom="5dp"
+                        android:alpha="0.25"
+                        android:text="🍃"
+                        android:textSize="50sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|bottom"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="8dp"
+                        android:alpha="0.35"
+                        android:text="🌿"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:id="@+id/tvLabHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="28dp"
+                        android:text="⚗  Experimental Lab"
+                        android:textColor="#FFFFFF"
+                        android:textSize="27sp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- ================================================= -->
+            <!-- SELECTED OBJECT -->
+            <!-- ================================================= -->
+
+            <TextView
+                android:id="@+id/tvObjectLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="SELECTED OBJECT"
+                android:textColor="#729087"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.12" />
+
+            <TextView
+                android:id="@+id/tvObjectName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="3dp"
+                android:text="Plastic Bottle"
+                android:textColor="#145C4A"
+                android:textSize="29sp"
+                android:textStyle="bold" />
+
+
+            <!-- ================================================= -->
+            <!-- EXAMINATION CARD -->
+            <!-- ================================================= -->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardExperiment"
+                android:layout_width="match_parent"
+                android:layout_height="285dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="18dp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="27dp"
+                app:cardElevation="5dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <!-- Decorative microscope -->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginTop="55dp"
+                        android:alpha="0.10"
+                        android:text="🔬"
+                        android:textSize="58sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <!-- Decorative atom -->
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginEnd="20dp"
+                        android:alpha="0.10"
+                        android:text="⚛"
+                        android:textColor="#2E9B70"
+                        android:textSize="58sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <!-- ================================================= -->
+                    <!-- OBJECT -->
+                    <!-- ================================================= -->
+
+                    <TextView
+                        android:id="@+id/tvExaminationAnimation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="🧴"
+                        android:textSize="78sp"
+                        android:contentDescription="Object being examined"
+                        app:layout_constraintBottom_toTopOf="@id/tvExaminationStatus"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.42" />
+
+
+                    <!-- ================================================= -->
+                    <!-- EXAMINATION ROBOT -->
+                    <!-- ================================================= -->
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/lottieExamRobot"
+                        android:layout_width="95dp"
+                        android:layout_height="95dp"
+                        android:layout_marginEnd="15dp"
+                        android:contentDescription="EcoBuddy examining the object"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:layout_constraintBottom_toTopOf="@id/tvExaminationStatus"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintVertical_bias="0.55" />
+
+
+                    <!-- ================================================= -->
+                    <!-- MOVING MAGNIFYING GLASS -->
+                    <!-- ================================================= -->
+
+                    <TextView
+                        android:id="@+id/tvExamMagnifier"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🔍"
+                        android:textSize="35sp"
+                        app:layout_constraintBottom_toTopOf="@id/tvExaminationStatus"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintVertical_bias="0.57" />
+
+
+                    <!-- ================================================= -->
+                    <!-- STATUS -->
+                    <!-- ================================================= -->
+
+                    <TextView
+                        android:id="@+id/tvExaminationStatus"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#DDF2E5"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="Preparing the sample..."
+                        android:textColor="#176B4D"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- ================================================= -->
+            <!-- INFORMATION TITLE -->
+            <!-- ================================================= -->
+
+            <TextView
+                android:id="@+id/tvResultTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="22dp"
+                android:text="♻  Materials &amp; Recycling Information"
+                android:textColor="#155C4B"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+
+            <!-- ================================================= -->
+            <!-- INFORMATION CARD -->
+            <!-- ================================================= -->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/resultCard"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="20dp"
+                app:cardBackgroundColor="#E6F4E9"
+                app:cardCornerRadius="23dp"
+                app:cardElevation="2dp">
+
+                <ScrollView
+                    android:id="@+id/resultScroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true"
+                    android:scrollbars="none">
+
+                    <TextView
+                        android:id="@+id/tvResult"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:text=""
+                        android:textColor="#245C4B"
+                        android:textSize="15sp"
+                        android:lineSpacingExtra="5dp" />
+
+                </ScrollView>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- ================================================= -->
+            <!-- ECOBUDDY SPEECH BUBBLE -->
+            <!-- ================================================= -->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/labBuddyCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                app:cardBackgroundColor="#DDF1E6"
+                app:cardCornerRadius="28dp"
+                app:cardElevation="2dp">
+
+                <TextView
+                    android:id="@+id/tvEcoBuddyMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="4"
+                    android:padding="17dp"
+                    android:text="Sure! Let's examine this object."
+                    android:textColor="#245C4B"
+                    android:textSize="14sp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- ================================================= -->
+            <!-- BOTTOM ECOBUDDY -->
+            <!-- ================================================= -->
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieEcoBuddy"
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                android:layout_gravity="start"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="-105dp"
+                android:contentDescription="EcoBuddy robot"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4FBF3">
+
+    <!-- ========================================= -->
+    <!-- HEADER -->
+    <!-- ========================================= -->
+
+    <TextView
+        android:id="@+id/tvLabTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="♻ Recycling Lab"
+        android:textColor="#1B5E20"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLabSubtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="25dp"
+        android:gravity="center"
+        android:text="Choose an object to learn how it can be recycled"
+        android:textColor="#55705A"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvLabTitle" />
+
+
+    <!-- ========================================= -->
+    <!-- ECOBUDDY -->
+    <!-- ========================================= -->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieEcoBuddy"
+        android:layout_width="220dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="EcoBuddy"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvLabSubtitle" />
+
+
+    <!-- ========================================= -->
+    <!-- ECOBUDDY MESSAGE -->
+    <!-- ========================================= -->
+
+    <TextView
+        android:id="@+id/tvEcoBuddyMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="18dp"
+        android:background="#E1F2E1"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Hi! I'm EcoBuddy. Choose an object and I'll tell you about it!"
+        android:textColor="#285C2D"
+        android:textSize="15sp"
+        android:lineSpacingExtra="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lottieEcoBuddy" />
+
+
+    <!-- ===================================================== -->
+    <!-- PAPER -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/imgPaper"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="14dp"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_paper"
+        android:contentDescription="Paper"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/imgPlasticBottle"
+        app:layout_constraintTop_toBottomOf="@id/tvEcoBuddyMessage" />
+
+    <TextView
+        android:id="@+id/tvPaperName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paper"
+        android:textColor="#1B5E20"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@id/imgPaper"
+        app:layout_constraintStart_toStartOf="@id/imgPaper"
+        app:layout_constraintEnd_toEndOf="@id/imgPaper" />
+
+
+    <!-- ===================================================== -->
+    <!-- PLASTIC BOTTLE -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/imgPlasticBottle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="14dp"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_plastic"
+        android:contentDescription="Plastic Bottle"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintStart_toEndOf="@id/imgPaper"
+        app:layout_constraintEnd_toStartOf="@id/imgGlass"
+        app:layout_constraintTop_toBottomOf="@id/tvEcoBuddyMessage" />
+
+    <TextView
+        android:id="@+id/tvPlasticBottleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plastic Bottle"
+        android:textColor="#1B5E20"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@id/imgPlasticBottle"
+        app:layout_constraintStart_toStartOf="@id/imgPlasticBottle"
+        app:layout_constraintEnd_toEndOf="@id/imgPlasticBottle" />
+
+
+    <!-- ===================================================== -->
+    <!-- GLASS BOTTLE -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/imgGlass"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="14dp"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_glass"
+        android:contentDescription="Glass Bottle"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintStart_toEndOf="@id/imgPlasticBottle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvEcoBuddyMessage" />
+
+    <TextView
+        android:id="@+id/tvGlassName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Glass Bottle"
+        android:textColor="#1B5E20"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@id/imgGlass"
+        app:layout_constraintStart_toStartOf="@id/imgGlass"
+        app:layout_constraintEnd_toEndOf="@id/imgGlass" />
+
+
+    <!-- ===================================================== -->
+    <!-- BATTERY -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/imgBattery"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="22dp"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_battery"
+        android:contentDescription="Battery"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/imgMetal"
+        app:layout_constraintTop_toBottomOf="@id/tvPaperName" />
+
+    <TextView
+        android:id="@+id/tvBatteryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery"
+        android:textColor="#1B5E20"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@id/imgBattery"
+        app:layout_constraintStart_toStartOf="@id/imgBattery"
+        app:layout_constraintEnd_toEndOf="@id/imgBattery" />
+
+
+    <!-- ===================================================== -->
+    <!-- METAL CAN -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/imgMetal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="22dp"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_metal"
+        android:contentDescription="Metal Can"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintStart_toEndOf="@id/imgBattery"
+        app:layout_constraintEnd_toStartOf="@id/imgPlasticBag"
+        app:layout_constraintTop_toBottomOf="@id/tvPaperName" />
+
+    <TextView
+        android:id="@+id/tvMetalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metal Can"
+        android:textColor="#1B5E20"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@id/imgMetal"
+        app:layout_constraintStart_toStartOf="@id/imgMetal"
+        app:layout_constraintEnd_toEndOf="@id/imgMetal" />
+
+
+    <!-- ===================================================== -->
+    <!-- PLASTIC BAG -->
+    <!-- ===================================================== -->
+
+    <ImageView
+        android:id="@+id/imgPlasticBag"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="22dp"
+        android:padding="2dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_plasticbag"
+        android:contentDescription="Plastic Bag"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintStart_toEndOf="@id/imgMetal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPaperName" />
+
+    <TextView
+        android:id="@+id/tvPlasticBagName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plastic Bag"
+        android:textColor="#1B5E20"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@id/imgPlasticBag"
+        app:layout_constraintStart_toStartOf="@id/imgPlasticBag"
+        app:layout_constraintEnd_toEndOf="@id/imgPlasticBag" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
