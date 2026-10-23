@@ -34,10 +34,10 @@ Materials included in the application include:
 
  Technologies Used
 
-- Java**
-- XML**
-- Android Studio**
-- JSON**
+- Java
+- XML
+- Android Studio
+- JSON
 - Text-to-Speech (TTS)
 
  Platform:
